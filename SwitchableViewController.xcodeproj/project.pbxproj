@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC23A7201DAB5C2400CEB512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */; };
-		CC23A7221DAB5C2400CEB512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7211DAB5C2400CEB512 /* ViewController.swift */; };
-		CC23A7251DAB5C2400CEB512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7231DAB5C2400CEB512 /* Main.storyboard */; };
-		CC23A7271DAB5C2400CEB512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7261DAB5C2400CEB512 /* Assets.xcassets */; };
-		CC23A72A1DAB5C2400CEB512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7281DAB5C2400CEB512 /* LaunchScreen.storyboard */; };
-		CC23A7321DAB5CC900CEB512 /* SwitchableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */; };
 		CC23A7361DAB7EBC00CEB512 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7351DAB7EBC00CEB512 /* README.md */; };
+		CC23A7411DAB9B3400CEB512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7381DAB9B3400CEB512 /* AppDelegate.swift */; };
+		CC23A7421DAB9B3400CEB512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7391DAB9B3400CEB512 /* Assets.xcassets */; };
+		CC23A7431DAB9B3400CEB512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A73A1DAB9B3400CEB512 /* LaunchScreen.storyboard */; };
+		CC23A7441DAB9B3400CEB512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A73C1DAB9B3400CEB512 /* Main.storyboard */; };
+		CC23A7451DAB9B3400CEB512 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC23A73E1DAB9B3400CEB512 /* Info.plist */; };
+		CC23A7461DAB9B3400CEB512 /* SwitchableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A73F1DAB9B3400CEB512 /* SwitchableViewController.swift */; };
+		CC23A7471DAB9B3400CEB512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7401DAB9B3400CEB512 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC23A71C1DAB5C2400CEB512 /* SwitchingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CC23A7211DAB5C2400CEB512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CC23A7241DAB5C2400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC23A7261DAB5C2400CEB512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC23A7291DAB5C2400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC23A72B1DAB5C2400CEB512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwitchableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CC23A71C1DAB5C2400CEB512 /* SwitchableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC23A7351DAB7EBC00CEB512 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC23A7381DAB9B3400CEB512 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC23A7391DAB9B3400CEB512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC23A73B1DAB9B3400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC23A73D1DAB9B3400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC23A73E1DAB9B3400CEB512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC23A73F1DAB9B3400CEB512 /* SwitchableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchableViewController.swift; sourceTree = "<group>"; };
+		CC23A7401DAB9B3400CEB512 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				CC23A7351DAB7EBC00CEB512 /* README.md */,
-				CC23A71E1DAB5C2400CEB512 /* SwitchingViewController */,
+				CC23A7371DAB9B3400CEB512 /* SwitchableViewController */,
 				CC23A71D1DAB5C2400CEB512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,31 +52,31 @@
 		CC23A71D1DAB5C2400CEB512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC23A71C1DAB5C2400CEB512 /* SwitchingViewController.app */,
+				CC23A71C1DAB5C2400CEB512 /* SwitchableViewController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC23A71E1DAB5C2400CEB512 /* SwitchingViewController */ = {
+		CC23A7371DAB9B3400CEB512 /* SwitchableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */,
-				CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */,
-				CC23A7211DAB5C2400CEB512 /* ViewController.swift */,
-				CC23A7231DAB5C2400CEB512 /* Main.storyboard */,
-				CC23A7261DAB5C2400CEB512 /* Assets.xcassets */,
-				CC23A7281DAB5C2400CEB512 /* LaunchScreen.storyboard */,
-				CC23A72B1DAB5C2400CEB512 /* Info.plist */,
+				CC23A7381DAB9B3400CEB512 /* AppDelegate.swift */,
+				CC23A7391DAB9B3400CEB512 /* Assets.xcassets */,
+				CC23A73A1DAB9B3400CEB512 /* LaunchScreen.storyboard */,
+				CC23A73C1DAB9B3400CEB512 /* Main.storyboard */,
+				CC23A73E1DAB9B3400CEB512 /* Info.plist */,
+				CC23A73F1DAB9B3400CEB512 /* SwitchableViewController.swift */,
+				CC23A7401DAB9B3400CEB512 /* ViewController.swift */,
 			);
-			path = SwitchingViewController;
+			path = SwitchableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC23A71B1DAB5C2400CEB512 /* SwitchingViewController */ = {
+		CC23A71B1DAB5C2400CEB512 /* SwitchableViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC23A72E1DAB5C2400CEB512 /* Build configuration list for PBXNativeTarget "SwitchingViewController" */;
+			buildConfigurationList = CC23A72E1DAB5C2400CEB512 /* Build configuration list for PBXNativeTarget "SwitchableViewController" */;
 			buildPhases = (
 				CC23A7181DAB5C2400CEB512 /* Sources */,
 				CC23A7191DAB5C2400CEB512 /* Frameworks */,
@@ -85,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = SwitchingViewController;
+			name = SwitchableViewController;
 			productName = SwitchingViewController;
-			productReference = CC23A71C1DAB5C2400CEB512 /* SwitchingViewController.app */;
+			productReference = CC23A71C1DAB5C2400CEB512 /* SwitchableViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC23A7171DAB5C2400CEB512 /* Build configuration list for PBXProject "SwitchingViewController" */;
+			buildConfigurationList = CC23A7171DAB5C2400CEB512 /* Build configuration list for PBXProject "SwitchableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC23A71B1DAB5C2400CEB512 /* SwitchingViewController */,
+				CC23A71B1DAB5C2400CEB512 /* SwitchableViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -130,9 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC23A72A1DAB5C2400CEB512 /* LaunchScreen.storyboard in Resources */,
-				CC23A7271DAB5C2400CEB512 /* Assets.xcassets in Resources */,
-				CC23A7251DAB5C2400CEB512 /* Main.storyboard in Resources */,
+				CC23A7421DAB9B3400CEB512 /* Assets.xcassets in Resources */,
+				CC23A7441DAB9B3400CEB512 /* Main.storyboard in Resources */,
+				CC23A7431DAB9B3400CEB512 /* LaunchScreen.storyboard in Resources */,
+				CC23A7451DAB9B3400CEB512 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,30 +145,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC23A7221DAB5C2400CEB512 /* ViewController.swift in Sources */,
-				CC23A7201DAB5C2400CEB512 /* AppDelegate.swift in Sources */,
+				CC23A7461DAB9B3400CEB512 /* SwitchableViewController.swift in Sources */,
 				CC23A7361DAB7EBC00CEB512 /* README.md in Sources */,
-				CC23A7321DAB5CC900CEB512 /* SwitchableViewController.swift in Sources */,
+				CC23A7471DAB9B3400CEB512 /* ViewController.swift in Sources */,
+				CC23A7411DAB9B3400CEB512 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC23A7231DAB5C2400CEB512 /* Main.storyboard */ = {
+		CC23A73A1DAB9B3400CEB512 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC23A7241DAB5C2400CEB512 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC23A7281DAB5C2400CEB512 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC23A7291DAB5C2400CEB512 /* Base */,
+				CC23A73B1DAB9B3400CEB512 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CC23A73C1DAB9B3400CEB512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC23A73D1DAB9B3400CEB512 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,7 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2P97EM4L4N;
-				INFOPLIST_FILE = SwitchingViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwitchableViewController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SwitchingViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,7 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2P97EM4L4N;
-				INFOPLIST_FILE = SwitchingViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwitchableViewController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SwitchingViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC23A7171DAB5C2400CEB512 /* Build configuration list for PBXProject "SwitchingViewController" */ = {
+		CC23A7171DAB5C2400CEB512 /* Build configuration list for PBXProject "SwitchableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC23A72C1DAB5C2400CEB512 /* Debug */,
@@ -305,13 +307,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC23A72E1DAB5C2400CEB512 /* Build configuration list for PBXNativeTarget "SwitchingViewController" */ = {
+		CC23A72E1DAB5C2400CEB512 /* Build configuration list for PBXNativeTarget "SwitchableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC23A72F1DAB5C2400CEB512 /* Debug */,
 				CC23A7301DAB5C2400CEB512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
