@@ -12,16 +12,20 @@
 		CC23A7251DAB5C2400CEB512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7231DAB5C2400CEB512 /* Main.storyboard */; };
 		CC23A7271DAB5C2400CEB512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7261DAB5C2400CEB512 /* Assets.xcassets */; };
 		CC23A72A1DAB5C2400CEB512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23A7281DAB5C2400CEB512 /* LaunchScreen.storyboard */; };
+		CC23A7321DAB5CC900CEB512 /* SwitchableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */; };
+		CC23A7361DAB7EBC00CEB512 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CC23A7351DAB7EBC00CEB512 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC23A71C1DAB5C2400CEB512 /* SwitchingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC23A7211DAB5C2400CEB512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CC23A7211DAB5C2400CEB512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CC23A7241DAB5C2400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC23A7261DAB5C2400CEB512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC23A7291DAB5C2400CEB512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC23A72B1DAB5C2400CEB512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwitchableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CC23A7351DAB7EBC00CEB512 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		CC23A7131DAB5C2400CEB512 = {
 			isa = PBXGroup;
 			children = (
+				CC23A7351DAB7EBC00CEB512 /* README.md */,
 				CC23A71E1DAB5C2400CEB512 /* SwitchingViewController */,
 				CC23A71D1DAB5C2400CEB512 /* Products */,
 			);
@@ -55,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				CC23A71F1DAB5C2400CEB512 /* AppDelegate.swift */,
+				CC23A7311DAB5CC900CEB512 /* SwitchableViewController.swift */,
 				CC23A7211DAB5C2400CEB512 /* ViewController.swift */,
 				CC23A7231DAB5C2400CEB512 /* Main.storyboard */,
 				CC23A7261DAB5C2400CEB512 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				CC23A7221DAB5C2400CEB512 /* ViewController.swift in Sources */,
 				CC23A7201DAB5C2400CEB512 /* AppDelegate.swift in Sources */,
+				CC23A7361DAB7EBC00CEB512 /* README.md in Sources */,
+				CC23A7321DAB5CC900CEB512 /* SwitchableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SwitchingViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -280,6 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SwitchingViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

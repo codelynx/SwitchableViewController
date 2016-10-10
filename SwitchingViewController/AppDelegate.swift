@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwitchingViewController
+//  SwitchableViewController
 //
 //  Created by Kaz Yoshikawa on 10/10/16.
 //  Copyright © 2016 Electricwoods LLC. All rights reserved.
